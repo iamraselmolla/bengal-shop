@@ -13,3 +13,12 @@ code {
   background-color: #27AE60;
   color: #fff;
 }
+.theme_color{
+  color: #27AE60;
+}
+.search_input:focus{
+ box-shadow: none;
+}
+section{
+  padding: 50px 0;
+}

@@ -1,0 +1,9 @@
+.single-category {
+    width: 260px;
+    display: flex;
+    border-radius: 5px;
+    height: 220px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
