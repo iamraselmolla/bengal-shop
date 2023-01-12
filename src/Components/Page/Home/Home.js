@@ -1,6 +1,8 @@
 import React from 'react';
 import Banner from './Banner';
 import Categories from './Categories';
+import DealsofTheWeek from './DealsofTheWeek';
+import FreshCollections from './FreshCollections';
 import './home.css'
 
 const Home = () => {
@@ -8,6 +10,8 @@ const Home = () => {
         <>
         <Banner></Banner>
         <Categories></Categories>
+        <FreshCollections></FreshCollections>
+        <DealsofTheWeek></DealsofTheWeek>
         </>
     );
 };
