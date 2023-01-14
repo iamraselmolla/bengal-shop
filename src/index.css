@@ -22,3 +22,11 @@ code {
 section{
   padding: 50px 0;
 }
+.add-to-cart-button{
+  transition: all ease-out 0.3s;
+}
+.add-to-cart-button:hover{
+  background-color: #27AE60!important;
+  color: #fff;
+  border: none;
+}
