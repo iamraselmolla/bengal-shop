@@ -1,0 +1,19 @@
+.text-gray{
+    color: #828282
+}
+.social_icon{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #4F4F4F;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all ease-in 0.5;
+}
+.social_icon:hover{
+background-color: #FF5E4D;
+color: #fff;
+}

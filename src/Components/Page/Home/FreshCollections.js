@@ -5,7 +5,7 @@ const FreshCollections = () => {
     return (
         <section>
             <div className="container">
-                <div className="row">
+                <div className="row ">
                     <div className="col-md-6 position-relative">
                         <img src="img/fresh-2.png" className='img-fluid' alt="" />
                         <div className="row d-flex align-content-center position-absolute fresh-collection-text top-0">

@@ -9,24 +9,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.theme_bg{
+
+.theme_bg {
   background-color: #27AE60;
   color: #fff;
 }
-.theme_color{
+
+.theme_color {
   color: #27AE60;
 }
-.search_input:focus{
- box-shadow: none;
+
+.search_input:focus {
+  box-shadow: none;
 }
-section{
+
+section {
   padding: 50px 0;
 }
-.add-to-cart-button{
+
+.add-to-cart-button {
   transition: all ease-out 0.3s;
 }
-.add-to-cart-button:hover{
-  background-color: #27AE60!important;
+
+.add-to-cart-button:hover {
+  background-color: #27AE60 !important;
   color: #fff;
   border: none;
+}
+
+/* .slick-arrow slick-prev */
+.slick-prev:before,
+.slick-next:before {
+  opacity: 1;
+}
+
+.slick-arrow.slick-next {
+  position: absolute;
+  background: #27AE60;
+  top: -60px;
+  width: 40px;
+  height: 40px;
+  right: -2px;
+  border-radius: 50%;
+
+}
+
+.slick-arrow.slick-prev {
+  top: -60px;
+  width: 40px;
+  height: 40px;
+  background: #27AE60;
+  border-radius: 50%;
+  position: absolute;
+  right: 50px;
+}
+.slick-arrow.slick-next:hover,
+.slick-arrow.slick-prev:hover{
+  background-color: transparent;
+  border: solid 2px #27AE60;
+  border-radius: 50%;
+}
+.slick-prev {
+  left: auto !important;
 }

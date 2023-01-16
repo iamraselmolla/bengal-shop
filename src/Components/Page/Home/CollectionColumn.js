@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const CollectionColumn = ({color, title, link, img}) => {
     return (
-        <div   style={{ background: color }} className="col-md-4 rounded-4">
-            <div className="row py-4">
+        <div className="col-md-4">
+            <div  style={{ background: color }} className="row py-4 rounded-3">
                 <div className="col-md-6 d-flex flex-column justify-content-center ps-md-4">
                     <h3 className="fw-bolder">
                         {title}

@@ -1,8 +1,8 @@
 .single-category {
-    width: 260px;
+    width: 160px;
     display: flex;
     border-radius: 5px;
-    height: 220px;
+    height: 160px;
     align-items: center;
     justify-content: center;
     background-color: #F7F7F7;

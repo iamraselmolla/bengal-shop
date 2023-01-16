@@ -5,7 +5,7 @@ const Collections3Column = () => {
     return (
         <section>
             <div className="container">
-                <div className="row">
+                <div className="row d-flex gap-3 flex-lg-nowrap">
                     <CollectionColumn img={'img/collection (1).png'} link={'/'} color={'#FFF0DC'} title={'Fresh Fruits Collection'}></CollectionColumn>
                     <CollectionColumn img={'img/collection (3).png'} link={'/'} color={'#DDF1D6'} title={'Vegetable Collection'}></CollectionColumn>
                     <CollectionColumn img={'img/collection (2).png'} link={'/'} color={'#FFEBB7'} title={'Grocery Item'}></CollectionColumn>
