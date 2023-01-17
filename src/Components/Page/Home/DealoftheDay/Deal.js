@@ -1,15 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { AiFillStar, AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai';
 
 const Deal = ({img, review, name, price, mainprice}) => {
+    const [item, setItem] = useState(1);
+    const handleItemMinus = ()  => {
+     if(item>1){
+        setItem(item-1)
+     }   
+    }
+    const handleItemPlus = ()  => {
+    
+        setItem(item+1)
+      
+    }
     return (
         <div className="text-center mt-md-3">
         <div className="product_img position-relative">
             <img className='img-fluid' src={`${img}`} alt="" />
             <div className="item_calculate gap-2 d-flex align-items-center justify-content-center">
-                <button className='bg-transparent bg-white border border-2 fs-4 fw-bold rounded-circle text-center text-white' style={{ width: '50px', lineHeight: '25px', height: '50px' }}><AiOutlineMinus></AiOutlineMinus></button>
-                <div className='rounded-circle fs-6 theme_color  fw-bold bg-white text-center' style={{ width: '50px', height: '50px', lineHeight: '50px' }}>1</div>
-                <button className='bg-transparent bg-white border border-2 fs-4 fw-bold rounded-circle text-center text-white' style={{ width: '50px', lineHeight: '25px', height: '50px' }}><AiOutlinePlus></AiOutlinePlus></button>
+                <button onClick={handleItemMinus} className='bg-transparent bg-white border border-2 fs-4 fw-bold rounded-circle text-center text-white' style={{ width: '50px', lineHeight: '25px', height: '50px' }}><AiOutlineMinus></AiOutlineMinus></button>
+                <div className='rounded-circle fs-6 theme_color  fw-bold bg-white text-center' style={{ width: '50px', height: '50px', lineHeight: '50px' }}>{item}</div>
+                <button onClick={handleItemPlus} className='bg-transparent bg-white border border-2 fs-4 fw-bold rounded-circle text-center text-white' style={{ width: '50px', lineHeight: '25px', height: '50px' }}><AiOutlinePlus></AiOutlinePlus></button>
             </div>
         </div>
         <div className="product_info">

@@ -28,3 +28,6 @@
     display: block;
     opacity: 1;
 }
+.deals .slick-initialized .slick-slide>div{
+    margin: 0 10px;
+}

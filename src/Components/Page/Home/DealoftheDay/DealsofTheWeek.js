@@ -11,7 +11,7 @@ const DealsofTheWeek = () => {
         autoPlay: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 2,
         accessibility: true
     };
@@ -21,7 +21,7 @@ const DealsofTheWeek = () => {
                 <div className="row position-relative">
                     <SectionTitle>Deals of the Week</SectionTitle>
                 </div>
-                <div className="row mt-4">
+                <div className="row mt-4 deals">
                     <Slider {...settings}>
                        <div><Deal name='Cow Meat' price={200} mainprice={300} review={100} img="img/deals- (1).png"></Deal></div>
                       <div> <Deal name='Fresh Dragon' price={100} mainprice={150} review={80} img="img/deals- (2).png"></Deal></div>

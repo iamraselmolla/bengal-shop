@@ -61,7 +61,7 @@ const Footer = () => {
                             @2022 Copyright All Right Reserved by Md Rasel Molla
                         </p>
                         <div>
-                            <img src="img/visa.png" alt="" />
+                            <img className='img-fluid' src="img/visa.png" alt="" />
                         </div>
                     </div>
                 </div>
