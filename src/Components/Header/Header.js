@@ -20,11 +20,14 @@ const Header = () => {
 
                         <button className='px-5 my-1 me-1 py-2 rounded-5' type="submit" style={{ background: '#4F4F4F', border: 'none', color: '#fff' }}>Search</button>
                     </form>
-                    <div className='d-flex'>
-                        <div className='fs-5 ms-3'><AiOutlineHeart></AiOutlineHeart></div>
-                        <div className='fs-5 ms-3'><AiOutlineShopping></AiOutlineShopping></div>
-                        <div className='fs-5 d-flex ms-4 bg-muted rounded-circle text-center'>
-                            <MdOutlineAccountCircle className='mt-1 me-2'></MdOutlineAccountCircle> <span className="fs-">
+                    <div className='d-flex align-items-center'>
+                        <div className='fs-5 cursor-pointer ms-3'><AiOutlineHeart></AiOutlineHeart></div>
+                        <div className='fs-5 cursor-pointer ms-3'><AiOutlineShopping></AiOutlineShopping></div>
+                        <div className='fs-5 cursor-pointer d-flex ms-4 bg-muted align-items-center rounded-circle text-center'>
+                            <div style={{width: '40px', height: '40px'}} className="d-flex me-2 rounded-circle align-items-center justify-content-center bg-muted text-center">
+                                <MdOutlineAccountCircle></MdOutlineAccountCircle>
+                                </div>
+                            <span>
                                 Account
                             </span>
                         </div>

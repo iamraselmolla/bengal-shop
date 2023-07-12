@@ -1,14 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './footer.css'
 import { FaFacebookF, FaInstagram, FaSkype, FaTwitter } from 'react-icons/fa'
 
 
 const Footer = () => {
-
+ 
     return (
         <footer className='py-5' style={{ background: '#F5F5F5' }}>
-           
             <div className="container">
                 <div className="row">
                     <div className="col-md-5">
